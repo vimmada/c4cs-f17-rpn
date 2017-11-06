@@ -4,7 +4,7 @@ python:
 before_install:
   - pip3 install termcolor
   - pip install pytest pytest-cov
-  - pip install install coveralls
+  - pip install coveralls
   - pip install coverage
 script:
   - coverage run -m pytest
